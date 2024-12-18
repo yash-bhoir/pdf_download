@@ -74,6 +74,21 @@ const DownloadPdf = () => {
             View AJ PDF
           </button>
         </div>
+        <div className="flex flex-col items-center space-y-6 bg-white p-6 rounded-lg shadow-lg transition-transform hover:scale-105">
+          <h3 className="text-2xl font-semibold text-gray-700 mb-4">AJ</h3>
+          <button
+            className="bg-green-600 text-white py-3 px-6 rounded-full shadow-lg transform hover:scale-110 transition-all duration-300"
+            onClick={() => handleDownload('wt.pdf')}
+          >
+            Download WT PDF
+          </button>
+          <button
+            className="bg-blue-600 text-white py-3 px-6 rounded-full shadow-lg transform hover:scale-110 transition-all duration-300"
+            onClick={() => handleView('wt.pdf')}
+          >
+            View WT PDF
+          </button>
+        </div>
       </div>
     </div>
   );
