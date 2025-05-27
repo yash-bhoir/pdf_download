@@ -105,7 +105,7 @@ const DownloadPdf = () => {
           </button>
         </div>
          <div className="flex flex-col items-center space-y-6 bg-white p-6 rounded-lg shadow-lg transition-transform hover:scale-105">
-          <h3 className="text-2xl font-semibold text-gray-700 mb-4">AIML</h3>
+          <h3 className="text-2xl font-semibold text-gray-700 mb-4">Devops</h3>
           <button
             className="bg-green-600 text-white py-3 px-6 rounded-full shadow-lg transform hover:scale-110 transition-all duration-300"
             onClick={() => handleDownload('devops.pdf')}
